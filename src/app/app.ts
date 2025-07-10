@@ -1,16 +1,13 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet],
-  template: `
-    <h1>Welcome to {{ title() }}!</h1>
-
-    <router-outlet />
-  `,
+  template: `<div class="container">
+      <h1>Welcome</h1>
+    </div>
+    <router-outlet /> `,
   styles: [],
 })
-export class App {
-  protected readonly title = signal('gramaphor');
-}
+export class App {}
