@@ -7,6 +7,7 @@ import { DynamicMermaid } from '../dynamic-mermaid/dynamic-mermaid';
   template: `
     <div class="container p-6">
       <h1 class="text-3xl font-bold text-slate-100 mb-6">Project Flow</h1>
+      <p>Deploy test</p>
       <app-dynamic-mermaid />
     </div>
   `,
