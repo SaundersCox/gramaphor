@@ -343,13 +343,13 @@ export class DynamicMermaid implements OnInit, AfterViewInit {
               // Add visual feedback
               nodeElement.addEventListener('mouseenter', () => {
                 nodeElement.style.opacity = '0.8';
-                nodeElement.style.transform = 'scale(1.02)';
+                // nodeElement.style.transform = 'scale(1.02)';
                 nodeElement.style.transition = 'all 0.2s ease';
               });
 
               nodeElement.addEventListener('mouseleave', () => {
                 nodeElement.style.opacity = '1';
-                nodeElement.style.transform = 'scale(1)';
+                // nodeElement.style.transform = 'scale(1)';
               });
 
               console.log('✅ Click handler added for node:', nodeId);
